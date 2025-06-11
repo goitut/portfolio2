@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>About</title>
+  <link rel="stylesheet" href="/about.css">
 </head>
+
 <body>
-  
+  <div class="main">
+    <div class="navbar">
+      <img src="/images/logo.jpg" class="logo">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="my work">MY WORK</a></li>
+        <li><a href="contact">CONTACT</a></li>
+      </ul>
+    </div>
+    <div>
+      <form>
+        <!-- grouping form elements -->
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" required placeholder="Enter your first name">
+          <label for="mname">Middle Name</label>
+          <input type="text" id="mname" required placeholder="Enter your middle name">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" required placeholder="Enter your last name">
+        </fieldset>
+    </div>
 </body>
+
 </html>

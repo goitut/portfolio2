@@ -1,3 +1,8 @@
+*{
+      margin: 0;
+      padding: 0;
+    }
+
 .main{
       width: 100%;
       background: url(/images/backgroung2.jpg);
@@ -7,3 +12,44 @@
       position: relative;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
+    
+    .navbar{
+      width: 86%;
+      display: flex;
+      margin: auto;
+      padding: 15, 0;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+
+    .logo{
+      width: 35px;
+      cursor: pointer;
+      margin-top: 10px;
+      margin-left: -2%;
+    }
+
+
+    .ul{
+      margin-top: -4%;
+    }
+
+    ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 10px 16px;
+    }
+
+    ul li a{
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: darkslategray;
+      margin-top: -3%;
+      transition: -4s ease;
+    }
+
+ul li a:hover{
+  color: rgb(230, 104, 59,);
+}
